@@ -1,10 +1,11 @@
+
 # EXECUTION-OF-LOGIC-GATES-USING-PLC-LADDER-PROGRAM
 
 
- # NAME :
- # REGISTER NUMBER :
- # DEPARTMENT 
- # YEAR 
+ # NAME :  thenmozhi.p
+ # REGISTER NUMBER :  212223100059
+ # DEPARTMENT :  CSE(cs)
+ # YEAR : III
 
  
 # Aim:
@@ -49,6 +50,42 @@ XOR Gate:
 Function: Outputs HIGH when an odd number of inputs are HIGH.
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.
 # Truth Tables:
+
+AND
+
+<img width="263" height="266" alt="image" src="https://github.com/user-attachments/assets/2c4d000b-2e33-4699-b45b-7e4cb39f662e" />
+
+OR
+
+<img width="257" height="256" alt="image" src="https://github.com/user-attachments/assets/a8180e65-d9dc-4eb8-bf2d-e71e74569a83" />
+
+
+NOT
+
+<img width="252" height="164" alt="image" src="https://github.com/user-attachments/assets/a62de7e8-d8e6-4d7d-99b6-e59aeba2f793" />
+
+NAND
+
+<img width="248" height="256" alt="image" src="https://github.com/user-attachments/assets/890bf2d2-08b3-4b18-bd47-b53b1d18cbcd" />
+
+
+
+NOR 
+
+<img width="262" height="257" alt="image" src="https://github.com/user-attachments/assets/97511440-4826-42a8-84e2-b6d13e614073" />
+
+
+XOR
+
+
+<img width="286" height="265" alt="image" src="https://github.com/user-attachments/assets/f2154dde-e2ff-46f1-b172-23c8e6342def" />
+
+
+XNOR
+
+
+<img width="251" height="261" alt="image" src="https://github.com/user-attachments/assets/52ceedd5-9078-4cd4-802b-a264af01902c" />
+
  
 # Procedure:
 Setup the PLC Programming Environment:
@@ -80,8 +117,41 @@ XOR Gate: The output should light up when exactly one input is HIGH.
 
 # SIMULATION RESULTS 
 
+**AND & OR GATE**
 
-#Results:
+<img width="723" height="757" alt="image" src="https://github.com/user-attachments/assets/4c8e1674-e1a2-48b8-a8cf-139fa3f980ce" />
+
+<img width="763" height="764" alt="image" src="https://github.com/user-attachments/assets/77a3e52c-2e2d-4e99-b664-54e9e27572f1" />
+
+**NOT GATE**
+
+<img width="542" height="302" alt="image" src="https://github.com/user-attachments/assets/afffd14c-6d9a-4b7e-a4c7-7bf99449aae1" />
+
+**NAND GATE**
+
+<img width="585" height="769" alt="image" src="https://github.com/user-attachments/assets/ec98f211-472c-4f5d-a949-2082671d98f3" />
+<img width="601" height="263" alt="image" src="https://github.com/user-attachments/assets/4654acd8-ccb6-4c05-b31f-552970b4c3e1" />
+
+
+
+**NOR GATE**
+
+<img width="484" height="640" alt="image" src="https://github.com/user-attachments/assets/3accae9b-af26-422a-8d39-4045ffe6ce66" />
+<img width="515" height="641" alt="image" src="https://github.com/user-attachments/assets/6c73a1b1-4832-4c67-8c8b-fb2bd75d1185" />
+
+
+
+**XOR & XNOR GATES**
+
+<img width="620" height="791" alt="image" src="https://github.com/user-attachments/assets/7c27324e-1665-4385-9b31-1771205ad239" />
+
+<img width="620" height="791" alt="image" src="https://github.com/user-attachments/assets/27be48a3-1e04-44c7-b1c2-97a8a1332acc" />
+
+
+
+**Results:**
+
 The ladder logic programs for each logic gate were successfully implemented and simulated.
 The outputs observed matched the expected results as per the truth tables of the respective logic gates.
 This experiment demonstrates the effective use of PLCs in executing digital logic operations, which are fundamental to industrial control systems.
+
